@@ -159,7 +159,7 @@ function renderInfobox(
 // ── Plugin ───────────────────────────────────────────────────────────────────
 
 export default class InfoboxPlugin extends Plugin {
-  async onload(): Promise<void> {
+  onload(): void {
     this.registerMarkdownCodeBlockProcessor(
       "infobox",
       (source: string, el: HTMLElement, ctx: MarkdownPostProcessorContext) => {
