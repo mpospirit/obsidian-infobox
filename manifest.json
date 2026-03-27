@@ -1,10 +1,10 @@
 {
-  "id": "obsidian-infobox",
+  "id": "infobox",
   "name": "Infobox",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "Render Wikipedia style infoboxes from YAML code blocks.",
   "author": "mpospirit",
-  "authorUrl": "https://github.com/mpospirit/obsidian-infobox",
+  "authorUrl": "https://github.com/mpospirit",
   "isDesktopOnly": false
 }
